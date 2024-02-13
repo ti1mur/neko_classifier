@@ -6,5 +6,10 @@
   2. class cringe - 0: персонаж не neko.
 
 ## baseline.py:
+### def get_loaders: 
+  Функция для создания dataloader'ов и предобработки изображений.
+### def model_train:
+  Функция для обучения и валидации модели. Реализованы train loop, сохранение best parametrs, вычисление train loss и validation loss по эпохам, а так же визуализация обучения с помощью tqdm.
+  
 
 
